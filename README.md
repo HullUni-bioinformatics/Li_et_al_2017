@@ -1,5 +1,5 @@
 # Li_et_al_2017
-Data processing workflow and supplementary data for Li et al. 2017 - The effect of filtration method on the efficiency of environmental DNA capture and quantification via metabarcoding analysis
+Data processing workflow and supplementary data for Li et al. 2017 - The effect of filtration method on the efficiency of environmental DNA capture and quantification via metabarcoding
 
 ##Contents
  - Supplementary [data](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data):
