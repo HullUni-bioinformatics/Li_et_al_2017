@@ -59,7 +59,7 @@ ggplot(FT_DC_original,aes(y=DNA,x=Time,colour=Treatment))+
                 labels = trans_format("log10", math_format(10^.x)))+
   scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
                 labels = trans_format("log10", math_format(10^.x)))+
-  labs(y="DNA concentration (ng/µL)", x= "Filtration time (min)")+theme_bw()+
+  labs(y="DNA concentration (ng/ÂµL)", x= "Filtration time (min)")+theme_bw()+
   geom_text_repel(aes(label=SampleID),size=3)+
   theme(text=element_text(size=20),axis.text.x = element_text(vjust = 0.7),legend.title = element_text(size=15),legend.text = element_text(size=15))
 
@@ -421,7 +421,7 @@ DC_boxplot <- ggplot(data=FT_DC_original,aes(x=Treatment,y=DNA,fill=Outlier))+
               geom_dotplot(binaxis='y', stackdir='center', dotsize=1,width=1, position = "dodge")+
               stat_summary(data=FT_DC, fun.y=mean, mapping = aes(group =Outlier),geom="point", shape=5, size=5)+#The mean calculate exculing outilers
               facet_wrap(~Pond)+
-              labs(x="Treatment", y= "DNA concentration (ng/µL)")+theme_bw()+
+              labs(x="Treatment", y= "DNA concentration (ng/ÂµL)")+theme_bw()+
               theme(text=element_text(size=20),axis.text.x = element_text(angle = -15,vjust = 0.7),legend.position = "none")
 
 
