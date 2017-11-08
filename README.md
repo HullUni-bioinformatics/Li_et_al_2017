@@ -10,9 +10,7 @@ Data processing workflow and supplementary data for Li et al. 2017 - The effect 
 
 
 
-##Introduction
-
- - Instructions on how to set up all dependencies for data processing/analyses
+##Instructions on how to set up all dependencies for data processing/analyses
  
 To facilitate full reproducibility of our analyses we provide Jupyter notebooks illustrating our workflow and all necessary supplementary data in this repository.
 
@@ -36,11 +34,9 @@ Once Docker is installed you can enter the environment by typing, e.g.:
 sudo docker run -i -t --net=host --name metaBEAT -v $(pwd):/home/working chrishah/metabeat /bin/bash
 ```
 
-This will download the metaBEAT v0.8 image (if it's not yet present on your computer) and enter the 'container', i.e. the self contained environment (Note that `sudo` may be necessary in some cases). With the above command the container's directory `/home/working` will be mounted to your current working directory (as instructed by `$(pwd)`), in other words, anything you do in the container's `/home/working` directory will be synced with your current working directory on your local machine. 
+This will download the metaBEAT image (if it's not yet present on your computer) and enter the 'container', i.e. the self contained environment (Note that `sudo` may be necessary in some cases). With the above command the container's directory `/home/working` will be mounted to your current working directory (as instructed by `$(pwd)`), in other words, anything you do in the container's `/home/working` directory will be synced with your current working directory on your local machine. 
 
-##Data processing workflow
-
- - Data processing workflow as Jupyter notebooks
+##Data processing workflow as Jupyter notebooks
  
 Raw illumina data has been deposited with Genbank (BioProject: PRJNA414952; BioSample accession: SAMN07811461-SAMN07811580; Sequence Read Archive accessions: SRR6189420-SRR6189539) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/raw_reads/How_to_download_Rawdata_from_SRA.ipynb).
 
