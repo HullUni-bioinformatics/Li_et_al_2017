@@ -42,10 +42,10 @@ This will download the metaBEAT v0.8 image (if it's not yet present on your comp
 
  - Data processing workflow as Jupyter notebooks
  
-Raw illumina data has been deposited with Genbank (BioProject: PRJNA414952; BioSample accession: SAMN07811461~SAMN07811580; Sequence Read Archive accessions: SRR6189420~SRR6189539) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To download the raw read data you can follow the steps in [this](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/raw_reads/How_to_download_Rawdata_from_SRA.ipynb) notebook.
+Raw illumina data has been deposited with Genbank (BioProject: PRJNA414952; BioSample accession: SAMN07811461~SAMN07811580; Sequence Read Archive accessions: SRR6189420~SRR6189539) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/raw_reads/How_to_download_Rawdata_from_SRA.ipynb) Jupyter notebook.
 
 
-With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the Jupyter notebooks that we provide in [here] (https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/Filtration_12S_July_2016.ipynb).
+With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the [this](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/Filtration_12S_July_2016.ipynb) Jupyter notebook.
 
 The workflow illustrated in the notebooks assumes that the raw Illumina data is present in a directory `raw_reads` at the base of the repository structure and that the files are named according to the following convention:
 'sampleID-marker', followed by '_R1' or '_R2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv).
