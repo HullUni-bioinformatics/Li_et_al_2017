@@ -41,6 +41,12 @@ library(SpadeR)
 library(car)
 
 
+FT_DC_original <- read.csv(file= "July2016_12s_onestep_filtration/Reanalysis_May_2017/AppendixS3_Filtration_July_2016_FT_DC.csv", header = TRUE)
+
+
+FT_DC_original$Pond <-mapvalues(FT_DC_original$Pond, c("E1","E2","E3","E4"), 
+                                           c("A","B","C","D"))
+
 
 
 FT_DC <- FT_DC_original [which(FT_DC_original$SampleID != "T3-1-3" &
@@ -397,7 +403,7 @@ DC_boxplot <- ggplot(data=FT_DC_original,aes(x=Treatment,y=DNA,fill=Outlier))+
               geom_dotplot(binaxis='y', stackdir='center', dotsize=1,width=1, position = "dodge")+
               stat_summary(data=FT_DC, fun.y=mean, mapping = aes(group =Outlier),geom="point", shape=5, size=5)+#The mean calculate exculing outilers
               facet_wrap(~Pond)+
-              labs(x="Treatment", y= "DNA concentration (ng/µL)")+theme_bw()+
+              labs(x="Treatment", y= "DNA concentration (ng/ÂµL)")+theme_bw()+
               theme(text=element_text(size=20),axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),legend.position = "none")
 
 
