@@ -41,7 +41,7 @@ library(SpadeR)
 library(car)
 
 
-FT_DC_original <- read.csv(file= "July2016_12s_onestep_filtration/Reanalysis_May_2017/AppendixS3_Filtration_July_2016_FT_DC.csv", header = TRUE)
+FT_DC_original <- read.csv(file= "July2016_12s_onestep_filtration/Reanalysis_May_2017/Filtration_July_2016_FT_DC.csv", header = TRUE)
 
 
 FT_DC_original$Pond <-mapvalues(FT_DC_original$Pond, c("E1","E2","E3","E4"), 
