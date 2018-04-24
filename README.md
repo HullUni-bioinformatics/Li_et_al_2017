@@ -1,7 +1,7 @@
 # Li et al. 2018
 Data processing workflow and supplementary data for Li et al. 2018 - The effect of filtration method on the efficiency of environmental DNA capture and quantification via metabarcoding. _Molecular Ecology Resourses_ DOI: 
 
-Release 1.0 of this repository has been archived: DOI
+Release 1.0 of this repository has been archived: DOI <a href="https://zenodo.org/badge/latestdoi/106316087"><img src="https://zenodo.org/badge/106316087.svg" alt="DOI"></a>
 
 ##Contents
   - reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017_eDNA_filtration/tree/master/supplementary_data/reference_DBs))
