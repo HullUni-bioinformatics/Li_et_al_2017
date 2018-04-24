@@ -1,5 +1,7 @@
 # Li et al. 2018
-Data processing workflow and supplementary data for Li et al. 2018 - The effect of filtration method on the efficiency of environmental DNA capture and quantification via metabarcoding
+Data processing workflow and supplementary data for Li et al. 2018 - The effect of filtration method on the efficiency of environmental DNA capture and quantification via metabarcoding. _Molecular Ecology Resourses_ DOI: 
+
+Release 1.0 of this repository has been archived: DOI
 
 ##Contents
   - reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017_eDNA_filtration/tree/master/supplementary_data/reference_DBs))
@@ -7,7 +9,8 @@ Data processing workflow and supplementary data for Li et al. 2018 - The effect 
   - SRA accession numbers for raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv))
   - Taxonomic assignment results ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/tree/master/supplementary_data/assignment_results))
   - R scripts used to produce the figures in the paper ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/tree/master/R_script))
-
+  - Appendix S1: Read counts of OTUs data was used for the R script (.csv) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_filtration/blob/master/Appendix_S1.csv))
+  - Figure S3: Maximum likelihood phylogenetic tree of the all 12S sequences from the custom reference database (.png) ([here](https://github.com/HullUni-bioinformatics/Li_et_al_2018_eDNA_filtration/blob/master/Figure_S3.png))
 
 
 ##Instructions on how to set up all dependencies for data processing/analyses
